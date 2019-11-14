@@ -3,7 +3,7 @@ function [decimal_doy] = dec_doy(datetime)
 % DECIMAL_YEAR = DEC_DOY(datetime) returns the day of year with time of
 % day represented as a decimal
 %
-% INPUT: 
+% INPUT:
 %       datetime - Valid datetime object
 %
 % Output:
@@ -13,7 +13,7 @@ function [decimal_doy] = dec_doy(datetime)
 % Example:
 %       >> dt = datetime(2019, 10, 23, 21, 50, 05, 123);
 %       >> decimal_doy = dec_doy(dt)
-%       decimal_doy = 
+%       decimal_doy =
 %                       296.9098
 %
 % Created by Moyo Ajayi
@@ -31,4 +31,3 @@ decimal_doy =                                                           ...
 day(datetime, 'dayofyear') + ((second(datetime, 'secondofday')) ./ 86400);
 
 end
-
