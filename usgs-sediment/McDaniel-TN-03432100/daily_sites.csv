@@ -1,0 +1,59 @@
+# This automated data download from the USGS sediment portal have not received director's approval and as such are provisional and are subject to revision. The data are released on the conditions that neither the USGS nor the United States Government may be held liable for any damages resulting from its use.
+#
+# Field name  Field description  Units
+# SITE_NO   USGS site identifier
+# SNAME   USGS site name      site
+# LATITUDE   Decimal latitude (datum NAD83)
+# LONGITUDE   Decimal longitude (datum NAD83)
+# NWISDA1   Upstream drainage area   square miles
+# STATE   U.S. State
+# COUNTY_NAME   U.S. County
+# ECO_L3_CODE   Level III Ecoregion Code
+# ECO_L3_NAME   Level III Ecoregion name
+# ECO_L2_CODE   Level II Ecoregion Code
+# ECO_L2_NAME   Level II Ecoregion name
+# ECO_L1_NAME   Level I Ecoregion name
+# ECO_L1_CODE   Level I Ecoregion Code
+# HUC_REGION_NAME   Hydrologic Unit Code Region name
+# HUC_SUBREGION_NAME   Hydrologic Unit Code Subregion name
+# HUC_BASIN_NAME   Hydrologic Unit Code Basin name
+# HUC_SUBBASIN_NAME   Hydrologic Unit Code Subbasin name
+# HUC_2   Hydrologic Unit Code Region Code
+# HUC_4   Hydrologic Unit Code Subregion Code
+# HUC_6   Hydrologic Unit Code Basin Code
+# HUC_8   Hydrologic Unit Code Subbasin Code
+# PERM   Average soil permeability   inches/hour
+# BFI   Average baseflow index   percent
+# KFACT   Average K-factor for the uppermost soil horizon   unitless
+# RFACT  30 year rainfall and runoff factor  (100's ft-tonf in h-1 ac-1 yr-1) * 10
+# PPT30  Mean annual precipitation from 1971-2000   centimeters
+"# URBAN  Percentage of urban land (sum of NLCD classes 21, 22, 23, and 24)   percent"
+"# FOREST  Percentage of forest land (sum of NLCD classes 41, 42, and 43)   percent"
+# AGRIC  Percentage of agricultural land (sum of NLCD classes 81 and 82)   percent
+"# MAJ_DAMS  Number of dams with >= 50 feet in height or having storage >= 5,000 acre-feet"
+# NID_STOR   Dam storage   acre-feet
+# CLAY   Average Percentage of soil clay content   percent
+# SAND   Average Percentage of soil sand content   percent
+# SILT   Average Percentage of soil silt content   percent
+# BENCHMARK_SITE   1 indicates site is a part of the hydrologic benchmark network
+# nhd.p1   1st percentile of daily flows
+# nhd.p5   5th percentile of daily flows
+# nhd.p10   10th percentile of daily flows
+# nhd.p20   20th percentile of daily flows
+# nhd.p25   25th percentile of daily flows
+# nhd.p30   30th percentile of daily flows
+# nhd.p40   40th percentile of daily flows
+# nhd.p50   50th percentile of daily flows
+# nhd.p60   60th percentile of daily flows
+# nhd.p70   70th percentile of daily flows
+# nhd.p75   75th percentile of daily flows
+# nhd.p80   80th percentile of daily flows
+# nhd.p90   90th percentile of daily flows
+# nhd.p95   95th percentile of daily flows
+# nhd.p99   99th percentile of daily flows
+# SAMPLE_YEARS   Number of unique years in which daily suspended-sediment concentration or load data were collected (daily_sites data only)      
+# SAMPLE_COUNT   Number of discrete suspended-sediment samples collected (discrete_sites data only)
+#
+#
+SITE_NO,SNAME,LATITUDE,LONGITUDE,NWISDA1,STATE,COUNTY_NAME,ECO_L3_CODE,ECO_L3_NAME,ECO_L2_CODE,ECO_L2_NAME,ECO_L1_NAME,ECO_L1_CODE,HUC_REGION_NAME,HUC_SUBREGION_NAME,HUC_BASIN_NAME,HUC_SUBBASIN_NAME,HUC_2,HUC_4,HUC_6,HUC_8,PERM,BFI,KFACT,RFACT,PPT30,URBAN,FOREST,AGRIC,MAJ_DAMS,NID_STOR,CLAY,SAND,SILT,BENCHMARK_SITE,NHDP1,NHDP5,NHDP10,NHDP20,NHDP25,NHDP30,NHDP40,NHDP50,NHDP60,NHDP70,NHDP75,NHDP80,NHDP90,NHDP95,NHDP99,sample_years
+
